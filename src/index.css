@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&display=swap');
+
+:root{
+    --color-bg-primary: #FFFFFF;
+    --color-bg-secondary:#2D28FF ;
+    --color-bg-tertiary:#C7C7C7 ;
+
+    --color-font-primary:#FFFFFF;
+    --color-font-secondary:#000000;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+

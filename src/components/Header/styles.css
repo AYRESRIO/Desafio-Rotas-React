@@ -1,0 +1,27 @@
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-bg-secondary);
+    color: var(--color-font-primary);
+   
+}
+
+.navbar {
+    display: flex;
+    padding-left: 262px; 
+}
+
+.imagebar {
+    display: flex;
+    
+    
+}
+
+header p {margin-left: 20px;}
+
+header h3 { 
+   padding-right: 282px;
+}
+
