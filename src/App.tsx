@@ -3,6 +3,7 @@ import Home from "./routes/Home";
 import Product from "./routes/Home/Product";
 import HomeBody from "./routes/Home/HomeBody";
 import About from "./routes/Home/About";
+import NotFound from "./routes/Home/NotFound";
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
           <Route path="products" element={<Product />} />
           <Route path="about" element={<About />} />
         </Route>
+        <Route path="notfound" element={<NotFound />} />
       </Routes>
+      
     </BrowserRouter>
   );
 }

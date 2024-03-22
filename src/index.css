@@ -16,3 +16,129 @@
     font-family: 'Inter';
 }
 
+
+.product-section-container {
+    display: flex;
+    justify-content: center;
+}
+
+.product-container {
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    max-width: 960px;
+    background-color: var(--color-bg-tertiary);
+    color: var(--color-font-secondary);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.product-container-item {
+    margin-left: 20px;
+}
+
+.computer-section-container {
+    display: flex;
+    justify-content: center;
+}
+
+.computer-container {
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    max-width: 960px;
+    background-color: var(--color-bg-primary);
+    color: var(--color-font-secondary);
+    font-size: 16px;
+    display:block;
+    align-items: center;
+}
+
+.electronic-section-container {
+    display: flex;
+    justify-content: center;
+}
+
+.electronic-container {
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    max-width: 960px;
+    background-color: var(--color-bg-primary);
+    color: var(--color-font-secondary);
+    font-size: 16px;
+    display:block;
+    align-items: center;
+}
+
+.livro-section-container {
+    display: flex;
+    justify-content: center;
+}
+
+.livro-container {
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    max-width: 960px;
+    background-color: var(--color-bg-primary);
+    color: var(--color-font-secondary);
+    font-size: 16px;
+    display:block;
+    align-items: center;
+}
+
+.home-body-container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-bg-primary);
+    
+}
+
+.home-body-title-container {
+    
+    width: 100%;
+    margin-top: 20px;
+    max-width: 960px;
+    background-color: var(--color-bg-primary);
+    color: var(--color-font-secondary);
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-bg-primary);
+}
+
+.about-title-container {
+    width: 100%;
+    margin-top: 20px;
+    max-width: 960px;
+    background-color: var(--color-bg-primary);
+    color: var(--color-font-secondary);
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.notfound-container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-bg-primary);
+}
+
+.notfound-title-container {
+    width: 100%;
+    margin-top: 20px;
+    max-width: 960px;
+    background-color: var(--color-bg-primary);
+    color: var(--color-font-secondary);
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
