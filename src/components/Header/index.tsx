@@ -1,4 +1,6 @@
-import './styles.css'
+import './styles.css';
+import homeImg from '../../assets/home.svg';
+
 
 export default function Header() {
   return (
@@ -9,7 +11,7 @@ export default function Header() {
         <div><p>Sobre nós</p></div>
       </nav>
       <div className="imagebar">
-        <div><h3>imagem</h3></div>
+        <div><img src={homeImg} alt="casa" /></div>
       </div>
     </header>
 
