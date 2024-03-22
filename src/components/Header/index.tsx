@@ -1,42 +1,31 @@
 import "./styles.css";
 import homeImg from "../../assets/home.svg";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
     <header>
       <nav className="navbar">
-        
-          <div>
-            <Link to="/">
-              <p>Início</p>
-            </Link>
-          </div>
-        
-        
-          <div>
-           <Link to="/products">
-              <p>Produtos</p>
-            </Link>
-          </div>
-        
-       
-          <div>
-            <Link to="/about">
-             <p>Sobre nós</p>
-            </Link>
-          </div>
-        
+
+        <NavLink to="/home" className = {({isActive})=>isActive ? "menu-active" :"menu-unactive" }>
+          <p>Início</p>
+        </NavLink>
+
+        <NavLink to="/products" className = {({isActive})=>isActive ? "menu-active" :"menu-unactive" }>
+          <p>Produtos</p>
+        </NavLink>
+
+        <NavLink to="/about" className = {({isActive})=>isActive ? "menu-active" :"menu-unactive" }>
+          <p>Sobre nós</p>
+        </NavLink>
+
       </nav>
-      
-        <div className="imagebar">
-          <div>
-            <Link to="/">
-              <img src={homeImg} alt="casa" />
-            </Link>
-          </div>
-        </div>
-      
+
+      <div className="imagebar">
+        <NavLink to="/">
+          <img src={homeImg} alt="casa" />
+        </NavLink>
+      </div>
     </header>
   );
 }

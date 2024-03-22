@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Home from "./routes/Home";
 import Product from "./routes/Home/Product";
 import HomeBody from "./routes/Home/HomeBody";
@@ -10,11 +10,12 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}>
-          <Route index element={<HomeBody />} />
+        <Route index element={<Navigate to ="/home" />} />
+          <Route path="home" element={<HomeBody />} />
           <Route path="products" element={<Product />} />
           <Route path="about" element={<About />} />
+          <Route path="notfound" element={<NotFound />} />
         </Route>
-        <Route path="notfound" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
