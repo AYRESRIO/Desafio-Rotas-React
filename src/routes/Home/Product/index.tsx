@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 export default function Product() {
   return (
@@ -37,6 +37,7 @@ export default function Product() {
           </NavLink>
         </div>
       </section>
+      <Outlet/>
     </main>
   );
 }
