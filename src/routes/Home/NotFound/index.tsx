@@ -1,8 +1,8 @@
 export default function NotFound() {
   return (
     <main>
-      <section className = "notfound-container">
-        <div className = "notfound-title-container">
+      <section className = "container1">
+        <div className = "title1">
           <h1>Não encontrado!</h1>
         </div>
       </section>

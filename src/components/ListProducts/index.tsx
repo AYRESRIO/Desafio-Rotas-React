@@ -1,6 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom";
 
-export default function Product() {
+export default function ListProducts() {
   return (
     <main>
       <section className="product-section-container">

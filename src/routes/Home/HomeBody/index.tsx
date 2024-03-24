@@ -1,8 +1,8 @@
 export default function HomeBody() {
   return (
     <main>
-      <section  className = "home-body-container">
-        <div className = "home-body-title-container">
+      <section  className = "container1">
+        <div className = "title1">
           <h1>Bem-vindos!</h1>        
         </div>
       </section>
