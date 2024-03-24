@@ -37,7 +37,7 @@ export default function ListProducts() {
           </NavLink>
         </div>
       </section>
-      <Outlet/>
+      <Outlet />
     </main>
   );
 }

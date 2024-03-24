@@ -16,10 +16,10 @@ function App() {
           <Route index element={<Navigate to="/home" />} />
           <Route path="home" element={<HomeBody />} />
           <Route path="products" element={<Products />} />
-            <Route path="computadores" element={<Computer/>}/>
-            <Route path="eletronicos" element={<Eletronic/>}/>
-            <Route path="livros" element={<Book/>}/>
-          
+          <Route path="computadores" element={<Computer />} />
+          <Route path="eletronicos" element={<Eletronic />} />
+          <Route path="livros" element={<Book />} />
+
           <Route path="about" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Route>
